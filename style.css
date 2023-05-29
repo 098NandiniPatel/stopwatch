@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+    /* font-family: 'Poppins',sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    color: #d7dfe4;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+button{
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+#hour, #minute ,#second ,#milisecond{
+    font-size: 150px;
+    font-weight: bold;
+}
+.unit{
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    
+}
+.btn #start{
+    background-color: #1abc9c;
+}
+.btn #stop{
+    background-color: #3498db;
+}
+.btn #reset{
+    background-color: #e74c3c;
+}
